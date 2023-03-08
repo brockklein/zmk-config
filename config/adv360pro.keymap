@@ -2,7 +2,7 @@
 #include "keypos_adv360.h"
 
 /* map 360's extra keys */
-#define X_LT    &kp EQUAL &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none     &mo MOD &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS \
+#define X_LT    &kp EQUAL &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none     &none &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS \
                 &kp TAB
 #define X_MT    &none &none
 #define X_RT    &kp BSLH
@@ -14,8 +14,8 @@
 #define X_LB    &kp LSHFT
 #define X_RB    &kp RSHFT
 
-#define X_LH    &none &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT     &kp UP &kp DOWN U_WH_D U_WH_U &none \
-                &kp LCTRL &kp LALT      &kp RGUI  &kp RCTRL
+#define X_LH    &mo MOD &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT     &kp UP &kp DOWN U_WH_D U_WH_U &none \
+                &kp LCTRL &kp LALT      &kp LGUI  &kp RCTRL
 #define X_MH    &kp HOME    &kp PG_UP
 #define X_RH    &kp END     &kp PG_DN
 
