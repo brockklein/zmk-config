@@ -53,7 +53,7 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)    // FN + NUM --> SYS
 
 /* Settings */
 
-#define TAP_DANCE_MS 220
+#define TAP_DANCE_MS 210
 #define QUICK_TAP_MS 175
 
 &sk {  // sticky-key config
